@@ -14,11 +14,11 @@ const Hero = () => {
           
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-white mb-6 leading-[1.1]">
             Bonjour, je suis <br />
-            <span className="text-gradient">NISHEMZWE Jean Paul</span>
+            <span className="text-gradient">NISHEMEZWE Jean Paul</span>
           </h1>
           
           <p className="text-xl text-slate-400 max-w-xl mb-10 leading-relaxed">
-            Développeur Full Stack spécialisé en <span className="text-slate-200 font-semibold">Django</span> et <span className="text-slate-200 font-semibold">React</span>. 
+            Développeur Full Stack spécialisé en <span className="text-slate-200 font-semibold">Django</span>, <span className="text-slate-200 font-semibold">React</span> et <span className="text-slate-200 font-semibold">PHP</span>. 
             Je conçois des applications web modernes, performantes et évolutives.
           </p>
           
@@ -30,7 +30,8 @@ const Hero = () => {
               Voir mes projets <ArrowRight size={18} />
             </a>
             <a 
-              href="#" 
+              href="/CV_NISHEMEZWE_Jean_Paul.pdf" 
+              download="CV_NISHEMEZWE_Jean_Paul.pdf"
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl glass hover:bg-slate-800/60 transition-all font-medium text-slate-200 hover:text-white border border-slate-700 hover:border-slate-500"
             >
               <Download size={18} />
@@ -39,10 +40,10 @@ const Hero = () => {
           </div>
 
           <div className="flex items-center gap-5">
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full glass flex items-center justify-center text-slate-300 hover:text-white hover:border-primary/50 hover:bg-primary/10 transition-all hover:-translate-y-1">
+            <a href="https://github.com/nishemezwejeanpaul" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full glass flex items-center justify-center text-slate-300 hover:text-white hover:border-primary/50 hover:bg-primary/10 transition-all hover:-translate-y-1">
               <Github size={22} />
             </a>
-            <a href="www.linkedin.com/in/jean-paul-nishemezwe-052230405" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full glass flex items-center justify-center text-slate-300 hover:text-white hover:border-primary/50 hover:bg-primary/10 transition-all hover:-translate-y-1">
+            <a href="https://www.linkedin.com/in/jean-paul-nishemezwe-052230405" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full glass flex items-center justify-center text-slate-300 hover:text-white hover:border-primary/50 hover:bg-primary/10 transition-all hover:-translate-y-1">
               <Linkedin size={22} />
             </a>
             <span className="text-sm font-medium text-slate-500 pl-2 border-l border-slate-800">

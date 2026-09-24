@@ -4,12 +4,15 @@ import { Code2, Database, Layout, GraduationCap } from 'lucide-react';
 const About = () => {
   const skills = [
     { name: 'Django', category: 'Backend' },
+    { name: 'Django REST', category: 'Backend' },
     { name: 'FastAPI', category: 'Backend' },
     { name: 'PHP', category: 'Backend' },
     { name: 'React.js', category: 'Frontend' },
     { name: 'Tailwind CSS', category: 'Frontend' },
     { name: 'MySQL', category: 'Database' },
     { name: 'PostgreSQL', category: 'Database' },
+    { name: 'WordPress', category: 'CMS' },
+    { name: 'WooCommerce', category: 'CMS' },
     { name: 'Deep Learning', category: 'AI' },
     { name: 'IA', category: 'AI' },
   ];
@@ -41,30 +44,31 @@ const About = () => {
         <div className="glass p-8 rounded-2xl">
           <h3 className="text-xl font-semibold mb-6 flex items-center gap-2 text-white">
             <GraduationCap className="text-secondary" size={24} /> 
-            Formations & Certifications
+            Formations & Expériences
           </h3>
           <div className="space-y-6">
             <div className="relative pl-6 border-l-2 border-slate-700/50">
               <div className="absolute w-3 h-3 bg-secondary rounded-full -left-[7px] top-2"></div>
-              <h4 className="text-lg font-medium text-slate-200">Formation Deep Learning / IA</h4>
-              <p className="text-primary mt-1">INDAAB</p>
-              <div className="mt-3 overflow-hidden rounded-lg border border-slate-700/50 group">
-                <img 
-                  src="/certificat.png" 
-                  alt="Certificat INDAAB" 
-                  className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
-                  onError={(e) => { e.target.style.display = 'none'; }}
-                />
-              </div>
+              <h4 className="text-lg font-medium text-slate-200">Stage Académique (Développeur Full-Stack)</h4>
+              <p className="text-primary mt-1">CEFORE-RUSI (Mai - Août 2026)</p>
+              <p className="text-slate-400 mt-2 text-sm">
+                Conception et développement du module Stock de l'Application SYGERI avec Django REST et React.
+              </p>
             </div>
 
             <div className="relative pl-6 border-l-2 border-slate-700/50">
               <div className="absolute w-3 h-3 bg-slate-600 rounded-full -left-[7px] top-2"></div>
-              <h4 className="text-lg font-medium text-slate-200">Licence Informatique</h4>
-              <p className="text-primary/70 mt-1">Université du Burundi</p>
+              <h4 className="text-lg font-medium text-slate-200">BAC III - TIC (Informatique)</h4>
+              <p className="text-primary/70 mt-1">Université du Burundi (2023 - 2026)</p>
               <p className="text-slate-400 mt-2 text-sm">
                 Formation approfondie en algorithmique, développement logiciel, bases de données et architecture des systèmes.
               </p>
+            </div>
+
+            <div className="relative pl-6 border-l-2 border-slate-700/50">
+              <div className="absolute w-3 h-3 bg-slate-600 rounded-full -left-[7px] top-2"></div>
+              <h4 className="text-lg font-medium text-slate-200">Diplôme A2 - Informatique des Télécommunications</h4>
+              <p className="text-primary/70 mt-1">Lycée KAYANZA (2019 - 2022)</p>
             </div>
           </div>
         </div>
